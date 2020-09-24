@@ -23,16 +23,25 @@ Examples
 
 Step 2. Please set the parameters, which are described below. The current parameter setting makes the model to simulate the rhythmic PER expression of the normal cell.
 
--pa1: Reaction probability for Per mRNA production for each time step (i.e. tick). 
--pa2: Reaction probability for PER protein translation for each time step. 
--pd1: Reaction probability for Per mRNA degradation for each time step. 
--pd2: Reaction probability for hypophos. PER degradtion for each time step. 
--pd3: Reaction probability for hyperphos. PER degradtion for each time step.
--Kd: Dissociation constant between hyperphos. PER and activator. 
--D: Movement step size of PermRNA and PER protein for each time step. 
--Dobs: Movement step size of cytoplasmic obstacles for each time step. 
--padvec: Probability that the PER protein is advected to the peri-nucleus by the cytoplasmic flux. 
--pim: Probability that hyperphos.PER in the cytoplasm is imported to the nucleus for each time step.
+pa1: Reaction probability for Per mRNA production for each time step (i.e. tick). 
+
+pa2: Reaction probability for PER protein translation for each time step. 
+
+pd1: Reaction probability for Per mRNA degradation for each time step. 
+
+pd2: Reaction probability for hypophos. PER degradtion for each time step. 
+
+pd3: Reaction probability for hyperphos. PER degradtion for each time step.
+
+Kd: Dissociation constant between hyperphos. PER and activator. 
+
+D: Movement step size of PermRNA and PER protein for each time step. 
+
+Dobs: Movement step size of cytoplasmic obstacles for each time step. 
+
+padvec: Probability that the PER protein is advected to the peri-nucleus by the cytoplasmic flux. 
+
+pim: Probability that hyperphos.PER in the cytoplasm is imported to the nucleus for each time step.
 
 Step 3. Load the reation probabilities for hyperphosphorylation and dephosphrylation by pushing “load” buttom.
 
