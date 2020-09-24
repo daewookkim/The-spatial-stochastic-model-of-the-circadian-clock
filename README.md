@@ -40,6 +40,7 @@ D: Movement step size of PermRNA and PER protein for each time step.
 Dobs: Movement step size of cytoplasmic obstacles for each time step. 
 
 padvec: Probability that the PER protein is advected to the peri-nucleus by the cytoplasmic flux. 
+
 pim: Probability that hyperphos.PER in the cytoplasm is imported to the nucleus for each time step.
 
 Step 3. Load the reation probabilities for hyperphosphorylation and dephosphrylation by pushing “load” buttom.
